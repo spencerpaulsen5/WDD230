@@ -1,0 +1,38 @@
+.wedding{
+    max-width: 10em;
+    max-height: 10em;
+    border-style: groove;
+    border-color: black;
+    float: right;
+    margin: 10px;
+}
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: silver;
+}
+li{
+    padding: 10px 25px;
+    display: inline-block;
+    background-color:aquamarine;
+    margin: .5rem .5rem .5rem .5rem;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+header, nav, main,footer{
+    margin: 1.25rem auto;
+    max-width: 760px;
+
+}
+header, footer{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+
+}
+
